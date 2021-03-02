@@ -1,0 +1,134 @@
+body {
+    color:black;
+    background-color:whitesmoke;
+    position: relative;
+}
+
+.container {
+    margin: auto;
+    width: 55%;
+    background-color: whitesmoke
+}
+
+.container .title {
+    margin: auto;
+    width: 55%;
+    height: 15em;
+    background-image: url("image/logo-gfriend2.png");
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+.container ul {
+    text-align:center;
+}
+
+.container ul li {
+    display: inline-block;
+    margin: 25px 10px;
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+
+.container ul li a {
+    display: block;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: larger;
+
+}
+
+.container ul li a:hover, footer a:hover {
+    color: whitesmoke
+}
+.container ul li a:active, footer a:active {
+    color: gray
+}
+
+.container .member {
+    border-radius: 5px;
+}
+
+.container h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    border-top: 3px solid goldenrod;
+    margin: 10px auto;
+}
+
+p {
+    text-align: justify;
+}
+
+.table {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.table tbody td:last-child {
+    text-align: left;
+    vertical-align: middle;
+    font-size: medium;
+    list-style: none;
+}
+
+.table tbody td:first-child {
+    vertical-align: middle;
+    font-size:small;
+}
+
+.table, .table thead{
+    color: whitesmoke
+}
+
+.table tbody{
+    color: black
+}
+
+.table img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.videos {
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+.video {
+    width: 20%;
+}
+
+.footer {
+    height: 100px;
+}
+
+footer {
+    position: absolute;
+    background-color:black
+    bottom: 0;
+    height: 50px;
+    left: 12.5%;
+    right: 12.5%;
+}
+
+footer p, footer a {
+    text-decoration: none;
+    color: goldenrod;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer p a {
+    padding: 0px 10px;
+    border-radius: 25;
+    background-color:rgba(209, 198, 198, 0.459);
+}
